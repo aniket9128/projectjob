@@ -20,6 +20,24 @@
             }
         })
     </script>
+    <style>
+        .chatbot-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .chatbot-icon:hover {
+            transform: scale(1.1);
+        }
+        .chatbot-icon img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 
 <body>
@@ -148,9 +166,9 @@
         </center>
         <div class="content">
             <p>
-                “Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your
-                attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try
-                ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+                "Education is the passport to the future, for tomorrow belongs to those who prepare for it today." "Your
+                attitude, not your aptitude, will determine your altitude." "If you think education is expensive, try
+                ignorance." "The only person who is educated is the one who has learned how to learn …and change."
             </p>
         </div>
     </div>
@@ -217,18 +235,8 @@
             </div>
         </a>
         <a href="#">
-            <div class="s-card"><img src="images/Verbal-Ability.jpg">
-                <p>VERBAL REASONING</p>
-            </div>
-        </a>
-        <a href="#contactus_section">
             <div class="s-card"><img src="images/Non-verbal-reasoning.png">
                 <p>NON-VERBAL REASONING </p>
-            </div>
-        </a>
-        <a href="chatbot/index.html">
-            <div class="s-card"><img src="chatbot/chatbot.webp">
-                <p>CHATBOT AI</p>
             </div>
         </a>
         <a href="resume/introduce.html">
@@ -377,10 +385,10 @@
     <!-- Sliding Information -->
     <marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left"
         onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20">
-        <div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it
-            today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is
-            expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and
-            change.”</div>
+        <div class="marqu">"Education is the passport to the future, for tomorrow belongs to those who prepare for it
+            today." "Your attitude, not your aptitude, will determine your altitude." "If you think education is
+            expensive, try ignorance." "The only person who is educated is the one who has learned how to learn …and
+            change."</div>
     </marquee>
 
     <!-- FOOTER -->
@@ -414,6 +422,10 @@
             </div>
         </div>
     </footer>
+
+    <a href="Career-Guidance-ChatBot/index.html" class="chatbot-icon" target="_blank">
+        <img src="images/chatbot.gif" alt="Chat with us">
+    </a>
 
 </body>
 
